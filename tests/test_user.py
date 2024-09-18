@@ -17,7 +17,6 @@ class UserTests(unittest.TestCase):
         user = User(name=name_generated, email=email_generated)
         self.assertEqual(user.name, name_generated)
         self.assertEqual(user.email, email_generated)
-        print(user.name, user.email)
 
     def test_user_with_multiple_accounts(self):
         for _ in range(3):
