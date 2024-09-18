@@ -192,3 +192,5 @@ pip-selfcheck.json
 
 # MIOS
 venv
+env
+.vscode
