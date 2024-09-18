@@ -1,0 +1,6 @@
+ipdb==0.13.13
+pytest==8.3.3
+requests==2.32.3
+ipython==8.27.0
+Faker==28.4.1
+coverage==7.6.1

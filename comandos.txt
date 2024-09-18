@@ -1,0 +1,33 @@
+python -m venv venv
+.\venv\Scripts\activate
+
+python -m venv env
+.\env\Scripts\activate
+
+
+pip install ipdb (Permite pausar la ejecución del Código)
+pip install pytest
+pip install requests
+pip install ipython
+pip install bpython
+pip install faker
+
+
+python.exe -m pip install --upgrade pip
+
+python -m unittest discover
+python -m unittest discover -s tests
+python -m unittest discover -v -s tests (ojo con esto porque ejecuta los test de raíz si solo ponemos "test" sin s al final)
+'''
+Para ejecutar en Windows
+cmd /c "set PYTHONPATH=. && python tests/test_suites.py"
+
+'''
+python -m unittest tests.test_api_client
+
+
+pip freeze | findstr requests
+pip freeze | findstr ipython
+pip freeze | findstr faker
+
+
