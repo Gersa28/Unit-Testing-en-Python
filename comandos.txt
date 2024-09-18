@@ -11,7 +11,8 @@ pip install requests
 pip install ipython
 pip install bpython
 pip install faker
-
+pip install pytest
+pip install coverage
 
 python.exe -m pip install --upgrade pip
 
@@ -29,5 +30,17 @@ python -m unittest tests.test_api_client
 pip freeze | findstr requests
 pip freeze | findstr ipython
 pip freeze | findstr faker
+pip freeze | findstr pytest
+
+pip freeze | findstr pytest >> requirements.txt (AGREGA UNA LINEA NUEVA CON LA INFO!!!)
+
+pip freeze | findstr ipdb >> requirements.txt
+pip freeze | findstr pytest >> requirements.txt
+pip freeze | findstr requests >> requirements.txt
+pip freeze | findstr ipython >> requirements.txt
+pip freeze | findstr bpython >> requirements.txt
+pip freeze | findstr Faker >> requirements.txt
+pip freeze | findstr pytest >> requirements.txt
+pip freeze | findstr coverage >> requirements.txt
 
 
